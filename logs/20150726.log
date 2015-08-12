@@ -1,0 +1,14 @@
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/csv.rb:1984:in `=~': invalid byte sequence in US-ASCII (ArgumentError)
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/csv.rb:1984:in `init_separators'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/csv.rb:1509:in `initialize'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/csv.rb:1261:in `new'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/csv.rb:1261:in `open'
+	from ./noko.rb:51:in `block (3 levels) in <main>'
+	from ./noko.rb:50:in `each'
+	from ./noko.rb:50:in `block (2 levels) in <main>'
+	from ./noko.rb:49:in `each'
+	from ./noko.rb:49:in `block in <main>'
+	from ./noko.rb:48:in `each'
+	from ./noko.rb:48:in `<main>'
+start_crawl
+2015-07-26 13:30:01 -0500

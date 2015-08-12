@@ -1,0 +1,13 @@
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/uri/common.rb:176:in `split': bad URI(is not URI?): http://www.opentable.com/Shor-Restaurant–Hyatt-Regency–McCormick?DateTime=2015-07-21%1617&Covers=2&MetroID=3 (URI::InvalidURIError)
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/uri/common.rb:211:in `parse'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/uri/common.rb:747:in `parse'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/open-uri.rb:33:in `open'
+	from ./noko.rb:27:in `block (3 levels) in <main>'
+	from ./noko.rb:24:in `each'
+	from ./noko.rb:24:in `block (2 levels) in <main>'
+	from ./noko.rb:21:in `each'
+	from ./noko.rb:21:in `block in <main>'
+	from ./noko.rb:18:in `each'
+	from ./noko.rb:18:in `<main>'
+start_crawl
+2015-07-21 13:30:01 -0500
